@@ -1,0 +1,1 @@
+String.prototype.trimLeft = String.prototype.trimStart;
