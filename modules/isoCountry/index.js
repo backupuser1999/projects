@@ -315,6 +315,9 @@ function isocode(){
 
     }
 
+    this.getAll = function(){
+        return list;
+    }
 
     this.getAlpha2 = function(str){
         var type = this.stringType(str, true);
