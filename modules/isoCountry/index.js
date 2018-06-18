@@ -264,6 +264,7 @@ function isocode(){
 
             var regex = RegExp("^.*" + name + ".*$", "i");
             
+            console.log(regex);
             
 
             if(en.match(regex) || de.match(regex)){
@@ -308,7 +309,7 @@ function isocode(){
         }
 
         if(/^([a-zA-Z -.,äöüÄÖÜ'"]{4,})$/.test(str)){
-            type = code ? "code" : "name";            
+            type = "name";            
         }
 
         return type;
